@@ -1,0 +1,61 @@
+site_name: Markdown Guide
+site_url: https://wiki.udl.tf
+site_description: A comprehensive guide to Markdown syntax and usage
+site_author: UDL.TF
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Basic Syntax: getting-started/basic-syntax.md
+  - Extended Syntax:
+    - Tables: extended-syntax/tables.md
+    - Code Blocks: extended-syntax/code-blocks.md
+    - Footnotes: extended-syntax/footnotes.md
+    - Task Lists: extended-syntax/task-lists.md
+  - Reference:
+    - Cheat Sheet: reference/cheat-sheet.md
+    - Best Practices: reference/best-practices.md
