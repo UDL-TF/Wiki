@@ -1,7 +1,7 @@
-site_name: Markdown Guide
+site_name: TFDB Wiki
 site_url: https://wiki.udl.tf
-site_description: A comprehensive guide to Markdown syntax and usage
-site_author: UDL.TF
+site_description: A comprehensive wiki for tfdb (Team Fotress Dodgeball)
+site_author: nadeoki
 
 theme:
   name: material
