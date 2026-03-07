@@ -19,9 +19,9 @@ When you deflect, there's a brief window where your mouse movement influences wh
 ```mermaid
 flowchart LR
     A[Rocket arrives] --> B[Airblast]
-    B --> C[Drag window\n~few ms]
-    C --> D[Mouse movement\naffects trajectory]
-    D --> E[Rocket follows\nmanipulated path]
+    B --> C["Drag window<br>(~few ms)"]
+    C --> D["Mouse movement<br>(affects trajectory)"]
+    D --> E["Rocket follows<br>(manipulated path)"]
 ```
 
 ---
