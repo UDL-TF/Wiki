@@ -1,61 +1,94 @@
 site_name: TFDB Wiki
 site_url: https://wiki.udl.tf
-site_description: A comprehensive wiki for tfdb (Team Fotress Dodgeball)
-site_author: nadeoki
+site_description: The ultimate community wiki for Team Fortress 2 Dodgeball (TFDB)
+site_author: UDL Community
+repo_url: https://github.com/UDL-TF/Wiki
+repo_name: UDL-TF/Wiki
+edit_uri: main/docs/
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://udl.tf
+      name: UDL Community
+    - icon: fontawesome/brands/github
+      link: https://github.com/UDL-TF
+      name: UDL GitHub
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - pymdownx.details
   - attr_list
   - md_in_html
   - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - toc:
       permalink: true
 
 nav:
   - Home: index.md
   - Getting Started:
-    - Introduction: getting-started/introduction.md
-    - Basic Syntax: getting-started/basic-syntax.md
-  - Extended Syntax:
-    - Tables: extended-syntax/tables.md
-    - Code Blocks: extended-syntax/code-blocks.md
-    - Footnotes: extended-syntax/footnotes.md
-    - Task Lists: extended-syntax/task-lists.md
-  - Reference:
-    - Cheat Sheet: reference/cheat-sheet.md
-    - Best Practices: reference/best-practices.md
+    - General Concept: getting-started/general-concept.md
+    - Gameplay: getting-started/gameplay.md
+  - Techniques:
+    - Airblasting: techniques/airblasting.md
+    - Dragging: techniques/dragging.md
+    - Orbiting: techniques/orbiting.md
+    - Downspike: techniques/downspike.md
+    - Upspike: techniques/upspike.md
+    - CQC: techniques/cqc.md
+    - Rally: techniques/rally.md
+    - Switch: techniques/switch.md
+    - Stealing: techniques/stealing.md
+    - Sniping: techniques/sniping.md
+    - Blocking: techniques/blocking.md
+  - Configuration:
+    - Rocket Classes: configuration/rocket-classes.md
+  - Community:
+    - Contributing: community/contributing.md

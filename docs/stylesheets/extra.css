@@ -1,0 +1,41 @@
+/* UDL Brand Colors */
+:root {
+  --md-primary-fg-color: #543fd7;
+  --md-primary-fg-color--light: #7c6be0;
+  --md-primary-fg-color--dark: #3d2eb0;
+  --md-accent-fg-color: #543fd7;
+  --md-accent-fg-color--transparent: #543fd71a;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #7c6be0;
+  --md-primary-fg-color--light: #9d8fe8;
+  --md-primary-fg-color--dark: #543fd7;
+  --md-accent-fg-color: #7c6be0;
+  --md-accent-fg-color--transparent: #7c6be01a;
+}
+
+/* Logo styling */
+.md-header__button.md-logo img {
+  height: 1.5rem;
+  width: auto;
+}
+
+/* Custom highlight for techniques */
+.technique-highlight {
+  border-left: 4px solid #543fd7;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+/* Hero section styling */
+.hero-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero-section img {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}

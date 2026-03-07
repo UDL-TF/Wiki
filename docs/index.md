@@ -1,54 +1,118 @@
-# Markdown Guide
+---
+hide:
+  - navigation
+---
 
-Welcome to the Markdown Guide! This comprehensive resource will help you master Markdown, a lightweight markup language for creating formatted text.
+<div class="hero-section" markdown>
 
-## What is Markdown?
+![UDL Logo](assets/logo.png){ width="180" }
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world's most popular markup languages.
+# Welcome to the TFDB Wiki
 
-## Why Use Markdown?
+**The definitive community resource for Team Fortress 2 Dodgeball**
 
-- **Universal**: Markdown can be used for everything - websites, documents, notes, books, presentations, email messages, and technical documentation.
-- **Portable**: Files containing Markdown-formatted text can be opened using virtually any application.
-- **Platform Independent**: You can create Markdown-formatted text on any device running any operating system.
-- **Future Proof**: Even if the application you're using stops working, you'll still be able to read your Markdown-formatted text using a text editing application.
-- **Everywhere**: Websites like Reddit and GitHub support Markdown, and lots of desktop and web-based applications support it.
+</div>
 
-## Getting Started
+---
 
-If you're new to Markdown, check out our [Introduction](getting-started/introduction.md) and [Basic Syntax](getting-started/basic-syntax.md) guides.
+## What is TF2 Dodgeball?
 
-## Quick Examples
+**Dodgeball** (also known as **TFDB**) is a popular community-created game mode for Team Fortress 2 where players face off as Pyros, reflecting rockets back and forth until someone fails to deflect. It transforms the chaotic battlefields of TF2 into an intense arena of reflexes, timing, and skill.
 
-### Headers
-```markdown
-# H1 Heading
-## H2 Heading
-### H3 Heading
-```
+Unlike standard TF2 gameplay, Dodgeball strips away the complexity of multiple classes and weapons, focusing purely on the art of the airblast. What begins as simple rocket tennis quickly evolves into a high-skill game featuring advanced techniques like **orbiting**, **downspikes**, **upspikes**, and **dragging**.
 
-### Emphasis
-```markdown
-*italic* or _italic_
-**bold** or __bold__
-***bold and italic***
-```
+---
 
-### Lists
-```markdown
-- Unordered list item
-- Another item
+## About This Wiki
 
-1. Ordered list item
-2. Another item
-```
+This wiki serves as the **official community knowledge base** for TF2 Dodgeball, maintained by the **UDL (United Dodgeball League)** community. Here you'll find:
 
-### Links and Images
-```markdown
-[Link text](https://example.com)
-![Alt text](image.jpg)
-```
+- :material-book-open-variant: **Comprehensive guides** for beginners and veterans
+- :material-lightning-bolt: **Advanced technique breakdowns** with detailed explanations
+- :material-strategy: **Strategic insights** to elevate your gameplay
+- :material-account-group: **Community resources** and server information
 
-## Explore More
+---
 
-Browse through the navigation to learn about basic syntax, extended features, and best practices for using Markdown effectively.
+## Quick Navigation
+
+<div class="grid cards" markdown>
+
+-   :material-rocket-launch:{ .lg .middle } **Getting Started**
+
+    ---
+
+    New to Dodgeball? Learn the basics and get up to speed quickly.
+
+    [:octicons-arrow-right-24: General Concept](getting-started/general-concept.md)
+
+-   :material-fire:{ .lg .middle } **Gameplay**
+
+    ---
+
+    Understand the rules, objectives, and flow of a Dodgeball match.
+
+    [:octicons-arrow-right-24: Gameplay Guide](getting-started/gameplay.md)
+
+-   :material-target:{ .lg .middle } **Techniques**
+
+    ---
+
+    Master advanced techniques like orbiting, spikes, and dragging.
+
+    [:octicons-arrow-right-24: Airblasting](techniques/airblasting.md)
+
+-   :material-cog:{ .lg .middle } **Configuration**
+
+    ---
+
+    Understand rocket classes, server settings, and spawner configurations.
+
+    [:octicons-arrow-right-24: Rocket Classes](configuration/rocket-classes.md)
+
+-   :material-account-group:{ .lg .middle } **Community**
+
+    ---
+
+    Connect with the Dodgeball community and contribute to this wiki.
+
+    [:octicons-arrow-right-24: Contributing](community/contributing.md)
+
+</div>
+
+---
+
+## Official Links
+
+| Resource                                        | Link                                     |
+| ----------------------------------------------- | ---------------------------------------- |
+| :fontawesome-brands-discord: **UDL Discord**    | [udl.tf](https://udl.tf)                 |
+| :material-web: **UDL Website**                  | [udl.tf](https://udl.tf)                 |
+| :fontawesome-brands-github: **Wiki Repository** | [GitHub](https://github.com/UDL-TF/Wiki) |
+
+---
+
+## Techniques Overview
+
+| Technique                                | Difficulty                                             | Description                                   |
+| ---------------------------------------- | ------------------------------------------------------ | --------------------------------------------- |
+| [Airblasting](techniques/airblasting.md) | :material-star: Beginner                               | The fundamental skill of reflecting rockets   |
+| [Dragging](techniques/dragging.md)       | :material-star::material-star: Intermediate            | Controlling which opponent the rocket targets |
+| [Orbiting](techniques/orbiting.md)       | :material-star::material-star: Intermediate            | Controlling rockets in circular patterns      |
+| [Downspike](techniques/downspike.md)     | :material-star::material-star: Intermediate            | Bouncing rockets off floor to disrupt timing  |
+| [Upspike](techniques/upspike.md)         | :material-star::material-star: Intermediate            | Launching rockets upward at steep angles      |
+| [CQC](techniques/cqc.md)                 | :material-star::material-star::material-star: Advanced | Close Quarter Combat tactics                  |
+| [Rally](techniques/rally.md)             | :material-star::material-star: Intermediate            | Extending rocket volleys strategically        |
+| [Switch](techniques/switch.md)           | :material-star::material-star::material-star: Advanced | Changing rocket trajectory mid-flight         |
+| [Blocking](techniques/blocking.md)       | :material-star: Beginner                               | Movement disruption (often banned)            |
+
+---
+
+!!! tip "Want to Contribute?"
+    This wiki is community-driven! If you have knowledge to share or spot an error, check out our [Contributing Guide](community/contributing.md) or [Request Changes](community/request-changes.md).
+
+---
+
+<div style="text-align: center; color: #666; margin-top: 2rem;">
+    <small>Maintained with :material-heart: by the UDL Community</small>
+</div>
