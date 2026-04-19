@@ -2,7 +2,7 @@
 
 ## What is Dodgeball?
 
-**Dodgeball** (commonly abbreviated as **TFDB** or **DB**) is a community-created game mode for Team Fortress 2 that transforms the game into a fast-paced volley-ball like sport, using a rocket as "birdie". The core concept is simple yet compelling: two teams of Pyros face off, reflecting homing rockets back and forth until one team fails to deflect.
+**Dodgeball** (commonly abbreviated as **TFDB** or **DB**) is a community-created game mode for Team Fortress 2 that transforms the game into a fast-paced volley-ball like sport, using a rocket as "birdie". In this gamemode two teams of Pyros face off, reflecting homing rockets back and forth until someone fails to deflect the rocket, as far as one of the team dies.
 
 ---
 
