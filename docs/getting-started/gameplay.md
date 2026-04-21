@@ -2,42 +2,24 @@
 
 ## Match Structure
 
-A typical Dodgeball match follows a straightforward structure designed for fast-paced action.
+A typical Dodgeball match follows the structure shown below.
 
----
-
-## Objective
-
-The goal is simple: **be the last team standing** by eliminating all opponents. A player is eliminated when they fail to deflect an incoming rocket.
-
----
-
-## Round Flow
+The goal is simple, **be the last team standing** by eliminating all opponents. A player is eliminated when they fail to deflect an incoming rocket.
 
 ```mermaid
 flowchart TD
-    A[Round Start] --> B[Rocket Spawns]
-    B --> C[Rocket Targets Random Player]
-    C --> D{Player Airblasts?}
-    D -->|Yes| E[Rocket Retargets Enemy]
-    E --> F[Rocket Accelerates]
+    A[Round start] --> B[Rocket spawns]
+    B --> C[Rocket targets a random player]
+    C --> D{Did the rocket get reflected?}
+    D -->|Yes| E[Selects a new target]
+    E --> F[Rocket accelerates]
     F --> D
-    D -->|No| G[Player Eliminated]
-    G --> H{Team Eliminated?}
+    D -->|No| G[Player gets eliminated]
+    G --> H{Is the team eliminated?}
     H -->|No| C
     H -->|Yes| I[Round Ends]
     I --> J[Next Round Begins]
 ```
-
-### Phase Breakdown
-
-1. **Spawn Phase**: Players spawn in their designated areas
-2. **Rocket Launch**: A rocket spawns and targets a random player
-3. **Rally Phase**: Players reflect rockets back and forth
-4. **Elimination**: Players who fail to reflect are eliminated
-5. **Round End**: Last team standing wins the round
-
----
 
 ## Common Server Rules
 
