@@ -10,44 +10,26 @@
 
 ### Homing Rockets
 
-Unlike standard TF2 rockets, Dodgeball rockets are **homing projectiles** that track their target. When a rocket is reflected, the plugin selects a new target based on **positioning logic** - typically the furthest player in the direction of the reflect.
+Unlike standard TF2 rockets, Dodgeball rockets are **homing projectiles** that track their target. When a rocket is reflected, the plugin selects a new target (see [Target Selection](#Target-Selection) below). Rockets **gain speed** with each reflection (maximum speed can be unlimited though this may vary on different servers), until someone misses. Rocket speed resets when it's fired from the launcher on maps, this can be either because a player died or a new round started.
 
-Key characteristics:
-
-- Rockets **gain speed** with each reflection
-- Rockets **lock onto a new target** after being reflected (based on positioning, not random)
-- Maximum speed can reach extreme levels in extended rallies
-- Rocket speed resets when a new round begins
 
 ### Target Selection
 
-The rocket's target is determined by the **SelectTarget** algorithm in the TFDB plugin:
+How does target selection work in dodgeball?
 
-1. Each potential target receives a **base random weight** (0-100)
-2. A **directional bonus** is added based on alignment with your aim direction
-3. The bonus uses the **dot product** of your aim direction and the vector to each player
-4. Players more aligned with your crosshair get higher weight
-5. The player with the **highest combined score** becomes the target
+When the rocket gets airblasted, first each potential target receives a **random weight** (0-100 scale), that is increased based on the alignment of your crosshair. Based on this value the new target gets selected and the rocket now tracks that player!
 
-The `RocketClassTargetWeight` server config determines how much aim direction matters versus randomness.
+### Reflecting a rocket
 
-!!! tip "Dragging"
-    **Dragging** is a technique where you manipulate your aim during the airblast to influence targeting. Aiming **toward** a player increases their selection weight; aiming **away** decreases it. While not 100% deterministic (there's still a random component), skilled dragging significantly improves your odds of hitting your intended target. See [Dragging](../techniques/dragging.md) for details.
-
-### The Airblast
-
-The **airblast** (secondary fire for Pyro) is your only tool for survival. When timed correctly, an airblast will:
-
-1. Deflect the incoming rocket
-2. Change its target to an enemy player
-3. Increase its speed slightly
-4. Reset your airblast cooldown (on most servers)
+To reflect a rocket, which in TF2 is done by **airblasting** the rocket (secondary fire). This may be the hardest part in this gamemode, timing your airblast is crucial to deflect a rocket. Keep in mind there is a cooldown between each airblast, which in a fast pace situation can bottleneck you!
 
 !!! warning "Timing is Everything"
     Airblast too early, and the rocket will pass through. Airblast too late, and... well, you know what happens.
 
 ---
 
+//From here below I don't think those are needed, if you read this please write down what you think
+//here:
 ## Server Plugins
 
 Dodgeball servers run specialized **SourceMod plugins** that modify game behavior.
