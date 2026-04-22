@@ -20,24 +20,6 @@ flowchart TD
     H -->|Yes| I[Round Ends]
     I --> J[Next Round Begins]
 ```
-
-## Common Server Rules
-
-### Rocket Behavior
-
-- **Starting Speed**: TBD (varies by server configuration)
-- **Speed Increase**: Each reflect increases rocket speed
-- **Maximum Speed**: TBD (server-dependent)
-- **Turn Rate**: How sharply rockets can curve toward targets
-
-### Player Rules
-
-| Rule            | Description                                 |
-| --------------- | ------------------------------------------- |
-| **No Stealing** | Don't reflect a rocket meant for a teammate |
-| **No Delaying** | Don't intentionally prolong rounds          |
-| **No Exploits** | Don't abuse map geometry or bugs            |
-
 ---
 
 ## Game Modes
@@ -48,35 +30,42 @@ The classic format with two opposing teams.
 
 - Teams take turns reflecting rockets
 - Elimination-based rounds
-- Most common format
 
 ### Free For All (FFA)
 
-Every player for themselves.
+As the name suggests every player is against everyone.
 
-- Rockets can target anyone
+- Rockets can target anyone, even your teammates
 - Last player standing wins
-- Popular on casual servers
 
 ### NER (Never Ending Rounds)
 
-Team based, but when there are two players left and lasting die everyone respawns to continue the round.
-
-- Players switches team to keep round active if all players in one team dies
+Similar to **Standard Dodgeball**, here the difference is, when a team has no players left and there are more than 1 player alive in the other team, a random player is switched teams, this goes until one player stands at the end similar to [FFA](#Free-For-All-(FFA)).
 
 ---
 
 ## Maps
 
 Dodgeball has a variety of community-made maps designed specifically for the game mode.
+(These are prefixed with `tfdb_`)
 
-All maps are prefixed `tfdb_` and there hundreds of various dodgeball maps to pick between.
-
+//this tip is kinda useless imo
 !!! info "Map Design"
     Good Dodgeball maps feature open sightlines, clear boundaries, no objects, and balanced spawn positions.
 
 ---
 
+## Common Player Rules
+
+| Rule            | Description                                 |
+| --------------- | ------------------------------------------- |
+| **No Stealing** | Don't reflect a rocket meant for a teammate |
+| **No Delaying** | Don't intentionally prolong rounds          |
+| **No Exploits** | Don't abuse map geometry or bugs            |
+
+---
+
+//this should be revised?
 ## Tips for New Players
 
 !!! tip "Beginner Advice"
@@ -91,4 +80,4 @@ All maps are prefixed `tfdb_` and there hundreds of various dodgeball maps to pi
 
 ## Next Steps
 
-Now that you understand the gameplay basics, it's time to learn the techniques that separate beginners from experts. Start with [Airblasting](../techniques/airblasting.md) to master the fundamental skill.
+Now that you have an insight how dodgeball works, lets move to techniques. Start with [Airblasting](../techniques/airblasting.m).
