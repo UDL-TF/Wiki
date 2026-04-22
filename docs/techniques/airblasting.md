@@ -1,6 +1,6 @@
 # Airblasting
 
-:material-star: **Difficulty**: Beginner
+**Difficulty**: :material-star
 
 ---
 
@@ -14,7 +14,7 @@
 
 ### How to Airblast
 
-- **Key**: Right-click (Secondary Fire)
+- **Button**: Right-click (Secondary Fire)
 - **Effect**: Creates a blast of air that deflects projectiles
 - **Cooldown**: 0.75 seconds cooldown default by TF2
 
@@ -49,22 +49,20 @@ timeline
 ## Direction Control
 
 The direction of your reflected rocket is determined by your **crosshair position** at the moment of reflection.
+For example if you keep your crosshair on the centre of your screen → Rocket goes straight forward, 
+if you aim up, down → Rocket goes up and down
+same goes for left and right.
 
-### Aiming Basics
-
-- **Center crosshair** → Rocket goes straight forward
-- **Aim up** → Rocket goes upward ([Upspike](upspike.md))
-- **Aim down** → Rocket goes downward ([Downspike](downspike.md))
-- **Aim left/right** → Rocket curves in that direction
+Now you know how to manipulate the rocket's direction, this can also be dangerous because lets say a rocket is coming towards you, and if you keep your aim away from the rocket it might happen that your (cone shaped) airblast doesn't reflect the rocket. For beginners a good advice is to only move your crosshair from the center when you are sure where the rocket is coming from.
 
 ---
-
+//idk whats this
 ## Positioning
 
 !!! TBD - Good positioning gives you more reaction time and better control.
 
 ---
-
+//meh
 ## Common Problems & Solutions
 
 | Problem                | Cause          | Solution                                   |
@@ -80,8 +78,8 @@ The direction of your reflected rocket is determined by your **crosshair positio
 
 Once you've mastered basic airblasting, you can begin learning advanced techniques:
 
-- **[Dragging](dragging.md)**: Controlling which opponent the rocket targets
 - **[Orbiting](orbiting.md)**: Controlling rockets in circular patterns
+- **[Dragging](dragging.md)**: Controlling which opponent the rocket targets
 - **[Downspike](downspike.md)**: Sending rockets sharply downward
 - **[Upspike](upspike.md)**: Launching rockets upward
 - **[CQC](cqc.md)**: Close-range combat techniques
@@ -91,4 +89,4 @@ Once you've mastered basic airblasting, you can begin learning advanced techniqu
 
 ## Next Steps
 
-Comfortable with basic airblasting? Move on to [Dragging](dragging.md) to learn how to control who the rocket targets.
+Comfortable with basic airblasting? Move on to [Orbiting](orbiting.md) to learn how to control who the rocket targets.
