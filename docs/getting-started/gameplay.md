@@ -40,7 +40,7 @@ As the name suggests every player is against everyone.
 
 ### NER (Never Ending Rounds)
 
-Similar to **Standard Dodgeball**, here the difference is, when a team has no players left and there are more than 1 player alive in the other team, a random player is switched teams, this goes until one player stands at the end similar to [FFA](#Free-For-All-(FFA)).
+Similar to **Standard Dodgeball**, here the difference is, when a team has no players left and there are more than 1 player alive in the other team, a random player is switched teams, this goes until one player stands at the end similar to [FFA](#-Free-For-All-(FFA)).
 
 ---
 
