@@ -1,12 +1,12 @@
 # Orbiting
 
-:material-star::material-star: **Difficulty**: Intermediate
+**Difficulty**: :material-star::material-star:
 
 ---
 
 ## Overview
 
-**Orbiting** is a technique where you exploit the rocket's homing behavior to make it circle around you. Since the rocket constantly tracks and turns toward its target, you can use your movement to make it orbit rather than hitting you directly.
+**Orbiting** is a technique where you exploit the rocket's homing behavior to make it circle around you. Since the rocket constantly tracks and turns toward its target, you can use your movement to get out of the rocket's way and make it orbit around you rather than hitting you directly.
 
 ---
 
@@ -14,6 +14,7 @@
 
 When a rocket is targeting you, it continuously adjusts its trajectory to follow you. By moving perpendicular to the rocket's path, you can make it curve around you in a circular pattern. The rocket's turn rate determines how tightly it can follow - and you can abuse this to delay your reflect timing.
 
+//this should be deleted and a gif should be there, this char looks ass
 ```mermaid
 flowchart TD
     A[Rocket homes toward you] --> B[You move perpendicular]
@@ -36,7 +37,7 @@ The homing rocket constantly tries to turn toward you, but it has a limited **tu
 | Low turn rate     | Wider orbits, easier to maintain  |
 | High turn rate    | Tighter orbits, harder to control |
 
-!!! info "Speed Scaling"
+!!! important "Speed Scaling"
     
     Most TFDB plugins increase rocket speed with each deflection. This makes extended orbiting harder as the round progresses - the faster the rocket, the shorter your orbit window.
 
@@ -48,6 +49,7 @@ The homing rocket constantly tries to turn toward you, but it has a limited **tu
 
 Stay relatively still and use WASD keys in a circular pattern to make the rocket orbit.
 
+//same here a gif needs to be put here please 
 | Input Pattern | Movement                |
 | ------------- | ----------------------- |
 | W → D → S → A | Clockwise orbit         |
@@ -57,6 +59,7 @@ Stay relatively still and use WASD keys in a circular pattern to make the rocket
 - Time your pattern to the rocket's speed
 - Works best with slower rockets
 
+//wtf is this?
 ### Following Orbit (Strafe + Mouse)
 
 Hold a strafe key and track the rocket with your mouse.
@@ -72,7 +75,7 @@ Hold a strafe key and track the rocket with your mouse.
 - Good for varying rocket speeds
 
 ---
-
+//uhh this needs to be revised
 ## Quick Orbit (U-Turn Technique)
 
 For **fast rockets** where full orbits are impossible, you can do a "quick orbit":
@@ -104,17 +107,15 @@ The U-turn creates a more predictable trajectory than a direct approach, giving 
 
 **Good Situations:**
 
-- Slow rockets (early in round)
+- Slow rockets (not recommended)
 - Need time to reposition
-- Buying time for teammates
-- Flexing on opponents
+- Buying time for yourself (because of cooldown or bad position)
 
 **Bad Situations:**
 
 - High-speed rockets (late game)
-- Cornered with no space
-- Opponent pressuring aggressively
 - Tight spaces
+- Opponent pressuring aggressively
 
 </div>
 
@@ -142,7 +143,7 @@ As deflections increase, speed increases. Extended orbiting becomes a liability 
 ### Closing Distance
 
 Skilled players can use orbiting to **close the gap** on opponents:
-
+//gif
 ```mermaid
 flowchart LR
     A[Start orbit] --> B[Move forward while orbiting]
