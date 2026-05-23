@@ -6,28 +6,40 @@
 
 ## Overview
 
-**Blocking** refers to physically obstructing an opponent's view of the rocket (/movement) to disrupt their ability to airblast.
+**Blocking** refers to physically obstructing an opponent's movement to disrupt their ability to airblast. By getting in a player's way, you can make it significantly harder for them to position themselves correctly to reflect an incoming rocket.
 
-!!! warning "Server Rules"
+!!! warning "Competitive Rules"
     
-    Blocking is **not allowed** in most competitive Dodgeball scenes. It is generally disliked in the community even in casual play. Check your server's rules before attempting.
+    Blocking is **not allowed** in most competitive Dodgeball scenes. It is generally frowned upon in the community even in casual play. Check your server's rules before attempting.
 
 ---
-By getting in a player's way, you can block their view of the rocket, or on some servers you can also block their movement
-to interfere with their positioning, tho in (most of) todays dodgeball servers you can go through enemies. 
 
-Other distruptive methods can be combined with blocking, for example you can spam airblast, close to the player or in their 
-face, this can be annoying because of the sound it gives off, also because you if you are skilled enough you can reflect the rocket
-back at them instanty after they reflected it (this is also called **insta reflect**).
+## What is Blocking?
 
-You can also block the oncoming rocket which then in turn (if you are close enough to the enemy) will deal splash damage to the opponent, while you get no damage.
+Blocking involves:
+
+- **Body blocking**: Standing in an opponent's path
+- **Movement disruption**: Getting in the way of their positioning
+- **Timing interference**: Blocking at critical moments when they need to move
+
+```mermaid
+flowchart LR
+    A[Opponent needs to move] --> B[You block their path]
+    B --> C[They can't position correctly]
+    C --> D[Harder to airblast]
+    D --> E[Higher chance they miss]
+```
 
 ---
-%% idk if we really need this
-## Why disliked in the community
 
-The most upfront answer is that it's annoying, also hard to defend against. And also it doesn't rely on skill to potentially
-kill a player with this method.
+## Why Blocking is Frowned Upon
+
+| Reason          | Explanation                                   |
+| --------------- | --------------------------------------------- |
+| Unsportsmanlike | Relies on physical interference, not skill    |
+| Disrupts flow   | Breaks the reflect-based gameplay             |
+| Frustrating     | Creates negative experience for opponents     |
+| Rule violations | Banned in competitive and many casual servers |
 
 ---
 
@@ -51,15 +63,60 @@ Blocking disrupts step 1 - if they can't move freely, they may not be able to re
 
 ---
 
+## Splash Damage Blocking
+
+Another form of blocking involves intercepting rockets to cause splash damage:
+
+```mermaid
+flowchart LR
+    A[Rocket targets Player A] --> B[Blocker intercepts rocket]
+    B --> C[Rocket explodes on blocker]
+    C --> D[Splash damage hits Player A]
+    D --> E[Player A dies without chance to defend]
+```
+
+When a rocket hits a blocker instead of its intended target, the resulting explosion can kill the actual target through splash damage. This denies the target any opportunity to defend themselves.
+
+| Aspect          | Description                             |
+| --------------- | --------------------------------------- |
+| How it works    | Stand between rocket and target         |
+| Result          | Target dies from splash, not direct hit |
+| Why it's unfair | Target had no chance to airblast        |
+| Penalty         | Usually kick/ban in competitive         |
+
+---
+
 ## Rocket Body Blocking
 
-You can also destroy rockets by intentionally running into them.
+Players can also destroy rockets by intentionally running into them:
 
-This form of blocking is used to delay the game by destroying rockets before they reach their target. It disrupts the flow of gameplay and is considered griefing on most servers.
+| Action           | Effect                     |
+| ---------------- | -------------------------- |
+| Body into rocket | Rocket destroys on contact |
+| Game impact      | Delays round, wastes time  |
+| Common use       | Stalling, griefing         |
+
+This form of blocking is used to delay the game by destroying rockets before they can be properly contested. It disrupts the flow of gameplay and is considered griefing on most servers.
 
 !!! danger "Severe Penalty"
     
-    Rocket body blocking (intentionally destroying rockets with your body) is typically treated as griefing/delaying and results in immediate kicks or bans on most servers.
+    Rocket body blocking (intentionally destroying rockets with your body) is typically treated as griefing and results in immediate kicks or bans on most servers.
+
+---
+
+## Server Rules
+
+Different servers handle blocking differently:
+
+| Server Type | Blocking Policy                         |
+| ----------- | --------------------------------------- |
+| Competitive | **Banned** - results in warnings/kicks  |
+| Casual      | Usually discouraged, may result in kick |
+| Some pubs   | Tolerated but frowned upon              |
+
+!!! info "Check Rules First"
+    
+    Always check the server's rules. Most servers with active admins will warn or kick players who intentionally block.
 
 ---
 
