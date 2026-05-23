@@ -6,8 +6,10 @@
 
 ## Overview
 
-**Dragging** is one of the hardest techniques in dodgeball. Within a few milliseconds, a player moves their mouse to align and manipulate the rocket's trajectory to their own advantage.
+**Dragging** is one of the hardest techniques in dodgeball. Within a few milliseconds, while you are reflecting, you have to 
+move your mouse in a direction or pattern to "drag" the rocket.
 
+%% uhh idk
 Every player can fine-tune their drag to perfection. It's a highly personal technique that takes significant practice to master.
 
 ---
@@ -16,6 +18,7 @@ Every player can fine-tune their drag to perfection. It's a highly personal tech
 
 When you deflect, there's a brief window where your mouse movement influences where the rocket goes. By snapping or dragging your crosshair in a specific direction during this window, you manipulate the rocket's path.
 
+%% i think this might need a gif too to showcase, honestly these diagrams are horrible 
 ```mermaid
 flowchart LR
     A[Rocket arrives] --> B[Airblast]
@@ -25,16 +28,6 @@ flowchart LR
 ```
 
 ---
-
-## Why Dragging is Difficult
-
-| Factor         | Challenge                         |
-| -------------- | --------------------------------- |
-| Timing window  | Extremely small (milliseconds)    |
-| Precision      | Mouse movement must be exact      |
-| Speed          | Must execute while rocket is fast |
-| Consistency    | Repeating the same drag is hard   |
-| Personal style | Everyone's drag feels different   |
 
 !!! warning "Practice Required"
     Dragging cannot be learned quickly. It requires extensive practice to develop muscle memory and consistency.
@@ -85,6 +78,7 @@ An insanely quick drag that sends the rocket behind the player first. The rocket
 
 ---
 
+%% this might actually stay lol
 ## Developing Your Drag
 
 <div class="technique-highlight" markdown>
